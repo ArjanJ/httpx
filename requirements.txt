@@ -3,6 +3,7 @@
 # needs to pass with the latest version of the packages.
 # Reference: https://github.com/encode/httpx/pull/1721#discussion_r661241588
 -e .[brotli,cli,http2,socks,zstd]
+h11>=0.16.0
 
 # Optional charset auto-detection
 # Used in our test cases
